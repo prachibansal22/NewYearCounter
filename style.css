@@ -1,0 +1,38 @@
+body{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	background-image:url("tree.jpg");
+	background-size: cover;
+	color:white;
+}
+.countdown-container{
+	display:flex;
+	justify-content: center;
+
+}
+.box{
+	height:300px;
+	width:600px;
+	background-color: black;
+	opacity: 0.6;
+}
+h1{
+	font-weight: normal;
+	font-size: 6rem;
+	margin-top: -10rem;
+	margin-top: 5rem;
+	font-family: 'Dancing Script', cursive;
+}
+.ct{
+	text-align: center;
+}
+.ct span{
+	font-size:1.5rem;
+}
+.big{
+	font-size:4rem;
+	line-height: 1;
+	margin: 0 2rem;
+	font-family: 'Libre Baskerville', serif;
+}
